@@ -2,6 +2,5 @@ Flask
 line-bot-sdk
 beautifulsoup4
 aiohttp>=3.10
-gunicorn
 pytz
 python-dotenv
