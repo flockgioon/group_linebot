@@ -1,4 +1,4 @@
-from flask import Flask, request, abort, send_from_directory
+from flask import Flask, request, abort
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
@@ -20,11 +20,6 @@ def home():
 @app.route("/favicon.png")
 def favicon():
     return "OK"
-
-
-@app.route("/mygo_images/<path:image_name>", methods=["GET"])
-def mygo_image(image_name):
-    return send_from_directory(str(config.MYGO_STATIC_DIR), image_name)
 
 
 @app.route("/callback", methods=["POST"])

@@ -13,5 +13,3 @@ TIMEZONE = os.environ.get("TIMEZONE", "Etc/GMT-8")
 MYGO_BASE_URL = os.environ.get("MYGO_BASE_URL", "")
 
 DATA_DIR = BASE_DIR / "data"
-STATIC_DIR = BASE_DIR / "static"
-MYGO_STATIC_DIR = STATIC_DIR / "mygo"
