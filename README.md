@@ -34,7 +34,7 @@ LINE 群組聊天機器人，提供多種實用與趣味功能。
 
 ### Mygo 圖包
 
-輸入 Mygo 動畫中的台詞，機器人會自動回應對應的劇照圖片。
+輸入 Mygo 動畫中的台詞，機器人會自動回應對應的圖片 (不包含所有台詞)。
 
 <img src="static/for_readme/mygo.jpg" width="400">
 
